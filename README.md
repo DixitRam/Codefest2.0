@@ -1,2 +1,2 @@
 # Codefest2.0
-Codefest 2.0 By Rao Information Technolog
+Participated in Rao Information Technology's Codefest 2.0
