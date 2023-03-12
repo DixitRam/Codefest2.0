@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta
 import time
-parent_list = open('inp.txt', 'r').read().split('\n')
+parent_list = open('TT_small.txt', 'r').read().split('\n')
 parent_list.pop(0)
 # spilt the list to access elements
 
@@ -74,8 +74,6 @@ f.write(time.strftime("%H:%M:%S", time.gmtime(max(emparr1))) +
 for i in range(len(emparr1)):
     avg += emparr1[i]
     emparr1[i] = time.strftime("%H:%M:%S", time.gmtime(emparr1[i]))
-print(emparr1)
-print(emparr2)
 f.write(str(time.strftime("%H:%M:%S", time.gmtime((avg/len(emparr1))))))
 f.close()
-print(len(parent_list))
+print('Successful!')
